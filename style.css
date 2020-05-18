@@ -1,0 +1,171 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: sans-serif;
+}
+.header
+{
+    width: 100vw;
+    height: 90px;
+    background:linear-gradient(#4c67a1, #3b5998);
+}
+.header h2
+{
+    float: left;
+    color: white;
+    font-size: 40px;
+    margin: 25px 0px 10px 150px;
+}
+.login
+{
+    float: right;
+    margin: 20px 230px 10px 0px;
+}
+.email
+{
+    float:left ;
+}
+.password
+{
+    float:left ;
+}
+.password label a
+{
+    text-decoration: none;
+    color: #adb0bd;
+    font-size:12px;
+}
+.password label a:hover
+{
+    text-decoration: underline;
+    color: #8f94ae;
+    font-size:12px;
+}
+.button
+{
+    float: left;
+    margin-top: 20px;
+}
+.button input[type= "button"]
+{
+    color: white;
+    background-color: #5571a3;
+    border: 1px solid #28457a;
+    font-weight: 700;
+    padding: 3px 6px;
+}
+.body
+{
+    background: linear-gradient(white,#d4d9e8);
+    width: 100vw;
+    height: 100vh;
+}
+.image
+{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+.image h3
+{
+    padding: 50px 20px 20px 150px;
+    font-size: 20px;
+}
+.image img
+{
+    padding: 20px 10px 20px 140px;
+    width: 500px;
+}
+.form
+{
+    float: right;
+    width: 50%;
+    height: 100vh;
+}
+.form h1
+{
+    font-weight: 700;
+    font-size: 40px;
+    margin: 30px 0px 10px 20px;
+}
+.form p
+{
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.layout
+{
+    margin:10px 20px ;
+}
+.layout input[type="text"]
+{
+    margin: 5px 5px;
+    width: 200px;
+    height: 35px;
+    border-radius: 3px;
+    color: white;
+    border: 1px solid rgba(197, 190, 190, 0.746);
+    font-size: 18px;
+    padding-left: 10px;
+}
+select
+{
+    margin: 15px 5px;
+    width: 80px;
+    height: 30px;
+    border-radius: 3px;
+}
+.layout input[type="radio"]
+{
+    margin: 10px 3px;
+    height: 15px;
+}
+.layout input[type= "button"]
+{
+    color: white;
+    background:linear-gradient( #76b861, #5b8e47);
+    border: 1px solid #0f1f0d;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 8px 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.footer
+{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.footer ul
+{
+    list-style-type: none;
+    display: inline-block;
+}
+.footer ul li
+{
+    display: inline-block;
+}
+.footer ul li a
+{
+    text-decoration: none;
+    font-size: 13px;
+    color: #385898;
+    margin: 0px 10px;
+    
+}
+.footer ul li a:hover
+{
+    text-decoration: underline;
+    font-size: 13px;
+    color: #385898;
+    margin: 0px 10px;
+    
+}
